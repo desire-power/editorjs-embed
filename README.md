@@ -5,6 +5,14 @@
 Provides Block tool for embedded content for the [Editor.js](https://editorjs.io).
 Tool uses Editor.js pasted patterns handling and inserts iframe with embedded content.
 
+## fork先からの変更
+
+### バグfix
+  動画のリンク先情報取得に失敗した場合、ずっとローディング中になっていたので修正
+###
+  動画のリンクをparagraphにコピーすると勝手に埋め込み動画になる仕様だったが、inputを設けてそこに貼り付ける形に変更
+
+
 ## List of services supported
 
 > `service` — is a service name that will be saved to Tool's [output JSON](#output-data)
